@@ -80,28 +80,28 @@ const EditChude = () => {
               <input
                 type="text"
                 className="p-3 rounded-lg border border-gray-200 w-full mb-5 outline-none focus:border-green-500 border-x-2"
-                placeholder="Enter your Code Topic"
+                placeholder="Nhập mã chủ đề"
                 name="MaChuDe"
                 onChange={(e) => setMaChuDe(e.target.value)}
               />
               <input
                 type="text"
                 className="p-3 rounded-lg border border-gray-200 w-full mb-5 outline-none focus:border-green-500 border-x-2"
-                placeholder="Enter your Name Topic"
+                placeholder="Nhập tên chủ đề"
                 name="NameChuDe"
                 onChange={(e) => setName(e.target.value)}
               />
               <input
                 type="url"
                 className="p-3 rounded-lg border border-gray-200 w-full mb-5 outline-none focus:border-green-500 border-x-2"
-                placeholder="Enter your Image Url"
+                placeholder="Đường dẫn hình ảnh"
                 name="Url"
                 onChange={(e) => setImgUrl(e.target.value)}
               />
               <input
                 type="text"
                 className="p-3 rounded-lg border border-gray-200 w-full mb-5 outline-none focus:border-green-500 border-x-2"
-                placeholder="Enter your Overview"
+                placeholder="Tổng quan chủ đề"
                 name="Overview"
                 onChange={(e) => setOverview(e.target.value)}
               />
@@ -109,7 +109,7 @@ const EditChude = () => {
                 type="submit"
                 className="p-3 bg-blue-500 text-white rounded-lg text-sm font-semibold"
               >
-                Add Topic
+                Thêm chủ đề
               </button>
             </form>
           </div>
@@ -128,7 +128,7 @@ const EditChude = () => {
                 type="submit"
                 className="p-3 bg-red-500 text-white rounded-lg text-sm font-semibold"
               >
-                Remove Topic
+                Xóa chủ đề
               </button>
             </form>
           </div>
