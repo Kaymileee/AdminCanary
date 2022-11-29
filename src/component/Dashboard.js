@@ -65,7 +65,7 @@ const Dashboard = () => {
           className="logout w-10 h-10 rounded-lg bg-red-600 flex justify-center items-center text-white absolute right-0 top-0 cursor-pointer"
           onClick={handleSignOut}
         >
-          Log out
+          Đăng xuất
         </div>
         <div className="line w-full h-[0.5px] bg-slate-600 my-2 rounded-md"></div>
         {/* edits */}
