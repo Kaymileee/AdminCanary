@@ -119,7 +119,7 @@ const EditChude = () => {
               <input
                 type="text"
                 className="p-3 rounded-lg border border-gray-200 w-full mb-5 outline-none focus:border-green-500 border-x-2"
-                placeholder="Enter your Code Topic"
+                placeholder="Mã chủ đề"
                 name="idTopic"
                 onChange={(e) => setIdTopic(e.target.value)}
               />
@@ -144,7 +144,7 @@ const EditChude = () => {
             className="bg-slate-500 p-4 text-white rounded-lg mb-5"
             onClick={() => setHide(!hide)}
           >
-            {hide ? "Hide" : "Show"}
+            {hide ? "Ẩn bớt" : "Hiển thị"}
           </button>
         </div>
 
