@@ -62,7 +62,7 @@ const Dashboard = () => {
           </h3>
         </div>
         <div
-          className="logout w-10 h-10 rounded-lg bg-red-600 flex justify-center items-center text-white absolute right-0 top-0 cursor-pointer"
+          className="logout  h-10 rounded-lg bg-red-600 flex justify-center items-center text-white absolute right-0 top-0 cursor-pointer"
           onClick={handleSignOut}
         >
           Đăng xuất
