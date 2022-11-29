@@ -49,7 +49,6 @@ const EditChude = () => {
   // handle
   const handleAdd = (e) => {
     e.preventDefault();
-    console.log("submit");
     addDoc(colRef, {
       MaChuDe: machude,
       Image_URL: imgUrl,
@@ -64,7 +63,6 @@ const EditChude = () => {
     e.preventDefault();
     const colRefTopic = doc(db, "Chude", idTopic);
     await deleteDoc(colRefTopic);
-    console.log("success");
     formRm.reset();
   };
   return (
