@@ -166,13 +166,13 @@ const EditTVung = () => {
           className="bg-slate-500 p-4 text-white rounded-lg mb-5"
           onClick={(e) => navigate("/dashboard")}
         >
-          Back
+         Quay lại
         </button>
         <button
           className="bg-slate-500 p-4 text-white rounded-lg mb-5"
           onClick={() => setShow(!show)}
         >
-          {show ? "Hide" : "Show"}
+          {show ? "Ẩn bớt" : "Hiển thị"}
         </button>
       </div>
 
